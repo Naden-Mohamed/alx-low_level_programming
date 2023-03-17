@@ -24,7 +24,7 @@ putchar((d % 10) + '0');
 putchar(' ');
 putchar((p / 10) + '0');
 putchar((p % 10) + '0');
-if (d == '89' && p == '99')
+if (d == 89 && p == 99)
 continue;
 putchar(',');
 putchar(' ');
