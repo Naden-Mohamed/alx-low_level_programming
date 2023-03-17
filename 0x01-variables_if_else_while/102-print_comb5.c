@@ -13,9 +13,9 @@
 int main(void)
 {
 int d, p;
-for (d = '0'; d < '89'; d++)
+for (d = 0; d < 89; d++)
 {
-for (p = d + 1; p <= '99'; p++)
+for (p = d + 1; p <= 99; p++)
 {
 if (p != d)
 {
