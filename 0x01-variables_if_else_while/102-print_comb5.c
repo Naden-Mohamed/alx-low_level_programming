@@ -18,8 +18,6 @@ for (d = 0; d < 89; d++)
 
 for (p = d + 1; p <= 99; p++)
 {
-if (p != d)
-{
 putchar((d / 10) + '0');
 putchar((d % 10) + '0');
 putchar(' ');
