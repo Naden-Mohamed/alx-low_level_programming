@@ -20,7 +20,7 @@ return (1 + _strlen_recursion(s + 1));
  * @n2: biggest interator
  * Return: .
  */
-int comparator(char *s,int n1, int n2)
+int comparator(char *s, int n1, int n2)
 {
 if (*(s + n1) == *(s + n2))
 {
