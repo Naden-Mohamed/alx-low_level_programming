@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of tags
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - Prints the number of args
+ * @argc: argument count
+ * @argv: argument vector
  *
- * Return: Always 0 (Success)
+ * Return: Always zero
  */
 int main(int argc, char *argv[])
 {
-(void)argc;
+(void)argv;
 printf("%d\n", argc - 1);
 return (0);
 }
