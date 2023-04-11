@@ -17,11 +17,8 @@ s1 = "";
 if (s2 == NULL)
 s2 = ""; 
 while (s1[i])
-{
 i++;
-}
 while (s2[j])
-{
 j++;
 l = i + j;
 s = malloc((sizeof(char) * i) +1);  
