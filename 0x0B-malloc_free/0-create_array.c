@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-  * create_array - create an array of chars 
+  * create_array - create an array of chars
   * @size: The size of the array
   * @c: The char to fill in an array
   *
@@ -20,5 +20,5 @@ for (i = 0; i < size; i++)
 {
 s[i] = c;
 }
-return(s);
+return (s);
 }
