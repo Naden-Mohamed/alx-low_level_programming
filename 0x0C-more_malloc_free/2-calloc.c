@@ -22,5 +22,5 @@ while (i < l)
 p[i] = 0;
 i++;
 }
-return (p); 
+return (p);
 }
