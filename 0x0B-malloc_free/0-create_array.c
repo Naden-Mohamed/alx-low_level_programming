@@ -16,13 +16,9 @@ return (NULL);
 s = malloc(size * sizeof(char));
 if (s == NULL)
 return (NULL);
-for (int i = 0; i < size; i++)
+for (i = 0; i < size; i++)
 {
   s[i] = c;
 }
 return (s);
-}
-
-
-
 }
