@@ -3,7 +3,7 @@
 /**
  * _strdup - duplicate a string
  * @str: the string to be duplicated
- * 
+ *
  * Return: the string duplicated
  */
 char *_strdup(char *str)
@@ -18,7 +18,7 @@ i++;
 }
 s = malloc((sizeof(char) * i) + 1);
 if (s == NULL)
-return(NULL);
+return (NULL);
 while (a < i)
 {
 s[a] = str[a];
