@@ -2,6 +2,7 @@
 /**
  * print_numbers - print numbers with separator
  * @separator: the string separator
+ * @n: the number of arguments
  * @...: the integers to print
  *
  * Return: void
@@ -15,6 +16,6 @@ printf("\n");
 return;
 va_start(ap, n);
 while (i--)
-printf("%d%s", va_start(ap, int), i ? (separator ? separator : "") : "\n"); 
+printf("%d%s", va_arg(ap, int), i ? (separator ? separator : "") : "\n"); 
 va_end(ap);
 }
